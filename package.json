@@ -1,0 +1,43 @@
+{
+  "name": "countylinesrp",
+  "version": "1.0.0",
+  "description": "Countylines Roleplay ",
+  "main": "index.js",
+  "scripts": {
+    "Dev": "node --experimental-modules scripts/watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tricky-Ricky/CountylinesRP.git"
+  },
+  "keywords": [
+    "GTAV",
+    "Roleplay",
+    "alt:V",
+    "roleplay"
+  ],
+  "author": "Nightranger & Sokobih",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Tricky-Ricky/CountylinesRP/issues"
+  },
+  "homepage": "https://github.com/Tricky-Ricky/CountylinesRP#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "chokidar": "^3.5.2",
+    "glob": "^7.2.0",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.2",
+    "path": "^0.12.7",
+    "sjcl": "^1.0.8",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "@altv/types-client": "^1.9.0",
+    "@altv/types-natives": "^1.4.3",
+    "@altv/types-server": "^2.0.7",
+    "@altv/types-shared": "^1.0.8",
+    "@altv/types-webview": "^1.0.2"
+  }
+}
